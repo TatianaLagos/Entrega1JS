@@ -1,0 +1,44 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/Entrega1.js"></script>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+    <div id="productos">
+        <div class="producto" onclick="agregarAlCarrito('Camisa', 60.000)">
+            <img src="Imagenes-entrega1/blusa.png" alt="Camisa">
+            <p>Camisa - $60.000</p>
+        </div>
+        <div class="producto" onclick="agregarAlCarrito('Pantalón', 150.000)">
+            <img src="Imagenes-entrega1/jean.png" alt="Pantalón">
+            <p>Pantalón - $150.000</p>
+        </div>
+        <div class="producto" onclick="agregarAlCarrito('Zapatos', 200.000)">
+            <img src="Imagenes-entrega1/tennis.png" alt="Zapatos">
+            <p>Zapatos - $200.000</p>
+        </div>
+        <div class="producto" onclick="agregarAlCarrito('Sombrero', 40.000)">
+            <img src="Imagenes-entrega1/sombrero.png" alt="Sombrero">
+            <p>Sombrero - $40.000</p>
+        </div>
+        <div class="producto" onclick="agregarAlCarrito('Bufanda', 35.000)">
+            <img src="Imagenes-entrega1/bufanda.png" alt="Bufanda">
+            <p>Bufanda - $35.000</p>
+        </div>
+        <div class="producto" onclick="agregarAlCarrito('Gafas', 50.000)">
+            <img src="Imagenes-entrega1/gafas.png" alt="Gafas">
+            <p>Gafas - $50.000</p>
+        </div>
+    </div>
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p id="total-carrito">Total: $<span id="total">0</span></p>
+    </div>
+
+</body>
+</html>
